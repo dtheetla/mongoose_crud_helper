@@ -1,4 +1,4 @@
-# mongoose_crud_helper
+# @dtheetla/mongoose_crud_helper
 
 
 mongoose_crud_helper provides generic crud functions based on mongoose for express apps
@@ -8,12 +8,12 @@ mongoose_crud_helper provides generic crud functions based on mongoose for expre
 Add this line to your application's Gemfile:
 
 ```node
-npm install 'mongoose_crud_helper'
+npm install '@dtheetla/mongoose_crud_helper'
 ```
 
 ## Usage
 ```node
-const MongooseCrudHelper = require('mongoose_crud_helper');
+const MongooseCrudHelper = require('@dtheetla/mongoose_crud_helper');
 const modelsPath = path.join(__dirname, '../models/department.js')
 
 const DeptCrudHelper = new MongooseCrudHelper('department');

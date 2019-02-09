@@ -1,5 +1,5 @@
 {
-  "name": "mongoose_crud_helper",
+  "name": "@dtheetla/mongoose_crud_helper",
   "version": "1.0.0",
   "description": "mongoose generic crud helper",
   "main": "index.js",
