@@ -1,0 +1,15 @@
+{
+  "name": "mongoose_crud_helper",
+  "version": "1.0.0",
+  "description": "mongoose generic crud helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose",
+    "crud"
+  ],
+  "author": "dinesh.theetla@gmail.com",
+  "license": "ISC"
+}
