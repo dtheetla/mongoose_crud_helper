@@ -15,6 +15,12 @@ npm install 'mongoose_crud_helper'
 ```node
 const MongooseCrudHelper = require('mongoose_crud_helper');
 const modelsPath = path.join(__dirname, '../models/department.js')
+
+const DeptCrudHelper = new MongooseCrudHelper('department');
+DeptCrudHelper.create(req.body, (status, resp) => {
+  res.status(status).json(resp);
+});
+
 ```
 
 
